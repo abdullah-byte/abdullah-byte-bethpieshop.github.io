@@ -45,8 +45,7 @@ body{
     background-size:cover;
     background-position: inherit;
     height:90vh;
-    width: auto;
-    max-width:100% ;
+    width: 100%;
     display:grid;
     flex-direction: column;
     justify-content: center;
