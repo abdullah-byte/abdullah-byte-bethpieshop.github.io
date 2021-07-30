@@ -2,6 +2,14 @@
     margin: 0;
     padding: 0;
 }
+@media (max-width: ) {
+    
+}
+
+[class*="col-"] {
+    width: 100%;
+  }
+
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -11,15 +19,17 @@ body{
 
 }
 .topnav{
-    background-color:bisque;
+    padding-top: 50px;
+    padding-right: 20px;
     overflow: hidden;
+    float: right;
 
 }
 .topnav a{
     float: right;
     color: #333f48;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 14px;
     text-decoration: none;
 
 }
@@ -34,7 +44,9 @@ body{
     background-image: url('../img/bethany.jpg');
     background-size:cover;
     background-position: inherit;
-    height: 100vh;
+    height:90vh;
+    width: auto;
+    max-width:100% ;
     display:grid;
     flex-direction: column;
     justify-content: center;
@@ -59,7 +71,7 @@ h3{
     font-family: cursive;
     align-items: center;
     text-align: center;
-    padding: 5;
+    padding-top: 2px;
 }
  
 .button{
@@ -112,14 +124,16 @@ h3{
     color: black;
 }
 #section-0 .logo{
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
     margin: 0 20px;
 
 }
 #section-3{
     align-items: center;
     justify-content: center;
+    padding: 9px;
+    margin-top: 0;
 }
 #section-3 .pie1, #section-3 .pie2, #section-3 .pie3, #section-3 .pie4{
     height: 300px;
@@ -135,10 +149,9 @@ h3{
     text-align: center;
     text-decoration: none;
     color: #333f48;
-    margin: 0 ;
     align-items: center;
     justify-content: center;
-    position: relative;
+    float: none;
     display: flex;
     font-size: 25px;
     font-family: cursive;
@@ -158,7 +171,10 @@ p{
     text-align: center;
     font-family: cursive;
     font-size: 25px;
+    padding: 20px;
 }
+
+
 input[type=text], select, textarea {
     width: 100%; 
     padding: 12px;  
